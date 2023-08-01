@@ -1,0 +1,15 @@
+{
+  "name": "flag-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "flag-game.js",
+  "scripts": {
+    "start": "live-server --open=flag-game.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
