@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flag Game</title>
+    <link rel="stylesheet" type="text/css" href="flag-game.css" />
+    <script src="flag-game.js" defer></script>
+    <script src="flag-game-func.js" defer></script>
+  </head>
+  <body onload="renderFlags()">
+    <main class="main-part">
+      <h1>Flag Game</h1>
+      <section class="flag-container"></section>
+      <section class="btn-container">
+        <button class="btn-1" onclick="takeOne()" onclick="choosePlayer()">
+          Take 1
+        </button>
+        <button class="btn-2" onclick="takeTwo()" onclick="choosePlayer()">
+          Take 2
+        </button>
+        <button class="btn-reset" onclick="reset()">Reset</button>
+      </section>
+      <span class="show-turn">Your Turn</span>
+    </main>
+  </body>
+</html>
