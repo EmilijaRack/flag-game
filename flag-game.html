@@ -8,18 +8,24 @@
     <script src="flag-game.js" defer></script>
     <script src="flag-game-func.js" defer></script>
   </head>
-  <body onload="renderFlags()">
-    <main class="main-part">
+  <body>
+    <main class="main-part" id="first-game">
       <h1>Flag Game</h1>
       <section class="flag-container"></section>
       <section class="btn-container">
-        <button class="btn-1" onclick="takeOne()" onclick="choosePlayer()">
-          Take 1
-        </button>
-        <button class="btn-2" onclick="takeTwo()" onclick="choosePlayer()">
-          Take 2
-        </button>
-        <button class="btn-reset" onclick="reset()">Reset</button>
+        <button class="btn-1">Take 1</button>
+        <button class="btn-2">Take 2</button>
+        <button class="btn-reset">Reset</button>
+      </section>
+      <span class="show-turn">Your Turn</span>
+    </main>
+    <main class="main-part" id="second-game">
+      <h1>Flag Game</h1>
+      <section class="flag-container"></section>
+      <section class="btn-container">
+        <button class="btn-1">Take 1</button>
+        <button class="btn-2">Take 2</button>
+        <button class="btn-reset">Reset</button>
       </section>
       <span class="show-turn">Your Turn</span>
     </main>
